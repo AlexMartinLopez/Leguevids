@@ -1,0 +1,19 @@
+.page-list {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+  }
+  
+  .page-list li {
+    border-bottom: 1px solid #ccc; /* Línea separadora */
+  }
+  
+  .page-list li:last-child {
+    border-bottom: none; /* Elimina la línea separadora del último elemento */
+  }
+  
+  .page-list li a {
+    font-size: 1.2em; /* Tamaño de fuente más grande para los enlaces */
+  }
+  
+  /* Otros estilos para la página Home si es necesario */
+  

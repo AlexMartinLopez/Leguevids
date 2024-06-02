@@ -1,0 +1,51 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./imagenes/logimg.jpg'); /* Ruta a la imagen de fondo del formulario de inicio de sesión */
+  background-size: cover;
+  background-position: center;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.6); /* Fondo blanco con opacidad */
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.login-box .title {
+  margin-bottom: 1rem;
+}
+
+.login-box .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box .input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-box .button {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box .button:hover {
+  background-color: #0056b3;
+}
+
+.login-box .error {
+  color: red;
+}
